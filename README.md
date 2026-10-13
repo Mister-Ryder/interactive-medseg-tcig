@@ -16,7 +16,7 @@ Public research snapshot of topology-sensitive interactive medical image segment
 
 The public snapshot excludes processed medical images and labels, case-level tables, dataset manifests containing case identifiers, checkpoints, predictions, logs, and internal working records. Build a local manifest from datasets you are authorized to use with `code/scripts/build_manifest.py`; the run commands are documented in `code/scripts/README.md`. Aggregate results and plots are provided under `records/experiments/`.
 
-This repository is a selected snapshot of the current TCIG code and published aggregate results. It does not include the full dataset or a complete training environment. No project-wide reuse license is declared.
+This repository is a selected snapshot of the current TCIG code and aggregate experiment results. It does not include the full dataset or a complete training environment. No project-wide reuse license is declared.
 
 ---
 
