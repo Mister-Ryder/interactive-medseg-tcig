@@ -1,0 +1,232 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 540,
+    "sha256": "2b1a948e46ba6d1d305d9ef7656d5efe7b63603e8e8e2866d30cb8ce38c927a3"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1852,
+    "sha256": "0669b5abe76178f78b8f21a6cb2d95bdb428979615abe0259e27fed1e2fedea1"
+  },
+  {
+    "path": "code/README.md",
+    "bytes": 2024,
+    "sha256": "8446be4e77e2147222cc4485f358698697391c5fa53c537462f0f1d7b5c22a83"
+  },
+  {
+    "path": "code/scripts/README.md",
+    "bytes": 4212,
+    "sha256": "0f72af32d1abe0a74e53298536f6f17c3bd19e26615c616d12dec48693c43bb8"
+  },
+  {
+    "path": "code/scripts/build_manifest.py",
+    "bytes": 9923,
+    "sha256": "f03ca5cba9f0bcb2789aaf5c2c74ec620d26b7808f221eca6582ca5bce5dc117"
+  },
+  {
+    "path": "code/scripts/eval.py",
+    "bytes": 18974,
+    "sha256": "51f800c2bf38f27a273c98d0e489a2888e1c51fa10b0fe40d368ce48fc97bf8a"
+  },
+  {
+    "path": "code/scripts/infer.py",
+    "bytes": 15714,
+    "sha256": "452ba14b9adc0321ab4c427ac2f05237b39ad5a1f5bf3fc52cf5c5517b4da653"
+  },
+  {
+    "path": "code/scripts/summarize_multidataset.py",
+    "bytes": 19386,
+    "sha256": "68acf696216103d235aba8461131665a2ca8042920821f93d3942cc78f087e75"
+  },
+  {
+    "path": "code/scripts/train.py",
+    "bytes": 13139,
+    "sha256": "78abd1e120efbf9ee7e7113714030832b419823aa1048b668b59b9fd6eca8c82"
+  },
+  {
+    "path": "code/tcig/__init__.py",
+    "bytes": 245,
+    "sha256": "c0984b22ce38a0b7474b736c41eb82b15f62f4f6c8458b830cf79edc82f51e90"
+  },
+  {
+    "path": "code/tcig/checkpoint.py",
+    "bytes": 1238,
+    "sha256": "35ab436d055d2d23b69e245369e6d267d51fded03854bc5e443202a46bbb4bc9"
+  },
+  {
+    "path": "code/tcig/clicks.py",
+    "bytes": 7500,
+    "sha256": "e9fea9a99d62c0f6ae8137131fb0aa6cbda557cb65e95575aaef34132efdf076"
+  },
+  {
+    "path": "code/tcig/data.py",
+    "bytes": 6507,
+    "sha256": "957bb4375758dec7f4e24f4c78ea61523e50ef343eb5a817b1bece20e10463ff"
+  },
+  {
+    "path": "code/tcig/epica.py",
+    "bytes": 2344,
+    "sha256": "cf62805c253289849e773cab47739f04d8ad8a348c8664f6da5cfa7f16f68202"
+  },
+  {
+    "path": "code/tcig/evaluate.py",
+    "bytes": 4399,
+    "sha256": "5b071a21d6c301811170c655401aaef31829acebf9cb8a5c03ac4b800994deb1"
+  },
+  {
+    "path": "code/tcig/graph.py",
+    "bytes": 5219,
+    "sha256": "e7d0c279648f38e5d4bfff36d2429ae824c403b23d52fa052f8c39a1a083497a"
+  },
+  {
+    "path": "code/tcig/iire/__init__.py",
+    "bytes": 232,
+    "sha256": "13adafcbcb7a0d601ed61fad24c4140696337349011c9af83398b5eb71f0d4c6"
+  },
+  {
+    "path": "code/tcig/iire/edges/__init__.py",
+    "bytes": 1454,
+    "sha256": "d2f49291ca4b06bb981be47ce606e72421e13898badbb516537328f57b7f6bbf"
+  },
+  {
+    "path": "code/tcig/iire/edges/affinity.py",
+    "bytes": 2081,
+    "sha256": "2c4f18975967098b136789729f340698420d86de4d6ab3bff9e9ef2498a53026"
+  },
+  {
+    "path": "code/tcig/iire/edges/combine.py",
+    "bytes": 2457,
+    "sha256": "7c351bcb59dd7f771c28402200fe3e282127bb34bbca0f3cb28fe1179c2d378f"
+  },
+  {
+    "path": "code/tcig/iire/edges/polarity.py",
+    "bytes": 1556,
+    "sha256": "cfb13e25ee3337e6c81dd79325974deefa8a99b1ecdc03e6b127db765f26c415"
+  },
+  {
+    "path": "code/tcig/iire/edges/temporal.py",
+    "bytes": 1715,
+    "sha256": "81c0a6bbd71ed9f3e4b68564744b32352fae217ee796a45d9e813344b557dd39"
+  },
+  {
+    "path": "code/tcig/iire/edges/topological.py",
+    "bytes": 4468,
+    "sha256": "9873f47fd9e1f8823e6418602bb2c09e2d166db1623a8880309f655609b1a334"
+  },
+  {
+    "path": "code/tcig/iire/graph_transformer.py",
+    "bytes": 4994,
+    "sha256": "b8ac28a363349846a38ebf0664ccebe58c8f50105326b2a1f7daefc677fd16d2"
+  },
+  {
+    "path": "code/tcig/iire/scatter.py",
+    "bytes": 15410,
+    "sha256": "49090c5017be8ae1d7f2bed6e4a41d4056ce6abbdea90bcb88393b6cdbea40d5"
+  },
+  {
+    "path": "code/tcig/interaction.py",
+    "bytes": 5791,
+    "sha256": "2d225c838d12ce7b9125ed6d3cae27ba533f4b69b03b268c1c84f1232bdd4160"
+  },
+  {
+    "path": "code/tcig/metrics/__init__.py",
+    "bytes": 836,
+    "sha256": "3216554b248f2b5920856857c526a29109a135e05bd4383b934c2a3eece02e23"
+  },
+  {
+    "path": "code/tcig/metrics/attribution_faithfulness.py",
+    "bytes": 5549,
+    "sha256": "8dc143b94ed67cceb62110bf8f6026ca9f13e3edd92635d2ed5647f9bb8ebd8b"
+  },
+  {
+    "path": "code/tcig/metrics/dice.py",
+    "bytes": 1719,
+    "sha256": "ec9531c369e11184cdb598c2e0d827ebf459b9cde83ce96d561980a3504f641a"
+  },
+  {
+    "path": "code/tcig/metrics/noc.py",
+    "bytes": 8291,
+    "sha256": "cbeb7a59f843b6b444333a1866d5b0f60be31a73720f64ee8e711188039f2f17"
+  },
+  {
+    "path": "code/tcig/metrics/topology.py",
+    "bytes": 4671,
+    "sha256": "8d8ddae7c016a1886bc96755aa881915dc3d9434df9d81a4321569150253e329"
+  },
+  {
+    "path": "code/tcig/model.py",
+    "bytes": 8928,
+    "sha256": "ed499d1f78e48308e4e32f83f77511f14af7bb1b9baf8d9ded7f8a390b049f92"
+  },
+  {
+    "path": "code/tcig/train_loop.py",
+    "bytes": 5195,
+    "sha256": "33a8f6187302760f91b78247c82ffa00ac848b9abc63395cd261df692cb213c3"
+  },
+  {
+    "path": "code/tests/conftest.py",
+    "bytes": 160,
+    "sha256": "47cd6cd5116e6098b7f32067cc459b6b91d7b202c7c09c955e3741281aa80c23"
+  },
+  {
+    "path": "code/tests/test_data_and_interaction.py",
+    "bytes": 2466,
+    "sha256": "02bb1dac4dad7922c8060a64797e49e3037bdc1d247281fad8e007f9f09995f6"
+  },
+  {
+    "path": "code/tests/test_eval_metrics.py",
+    "bytes": 7199,
+    "sha256": "b82288470cc346dd8cef0101ecc111eb8107eb6550fd677ffb3a2004864af02a"
+  },
+  {
+    "path": "code/tests/test_model_components.py",
+    "bytes": 12051,
+    "sha256": "245d605a4bd5830f961fee2cfbddb76a54c8b2c096c999325b337f6dc56f30fb"
+  },
+  {
+    "path": "code/tests/test_topcow_pipeline.py",
+    "bytes": 2764,
+    "sha256": "6181b71a16245d9f46e08042c848e7b7c6e6af5e9502e6f2eb7ba02f4ed65da8"
+  },
+  {
+    "path": "records/experiments/tcig-connectivity-eval-plan-20260602.md",
+    "bytes": 2974,
+    "sha256": "3bccb548c5e7a08cc42c28675e5d4a3cba7a2e803f2c7b494d19b7b436e4bc60"
+  },
+  {
+    "path": "records/experiments/tcig-topcow-formal-20260526-summary.md",
+    "bytes": 3315,
+    "sha256": "7e391c2dda9189136ce23eaa7e41d317c46c71a6fb498e43dd3fcc9435588f2f"
+  },
+  {
+    "path": "records/experiments/tcig_multidataset_topology_20260602/multidataset_connectivity_curves.png",
+    "bytes": 478608,
+    "sha256": "b052d0a136f7221d301c86ac8e7368bab9b77dc37fb47dd7a3275c3d3ff0fde3"
+  },
+  {
+    "path": "records/experiments/tcig_multidataset_topology_20260602/multidataset_figures.tex",
+    "bytes": 478,
+    "sha256": "74a8a4b2adbcc81e73b431852bf4e5d63641b53ba3500f81e26039a71395d298"
+  },
+  {
+    "path": "records/experiments/tcig_multidataset_topology_20260602/multidataset_final_metrics.png",
+    "bytes": 59216,
+    "sha256": "b68a5d0683fa9deaeaf35f5f5ea68cd72a0a5c25391b5cc85d831c15b6981e11"
+  },
+  {
+    "path": "records/experiments/tcig_multidataset_topology_20260602/multidataset_summary.csv",
+    "bytes": 1822,
+    "sha256": "e15187d4d9d08c77ffda9ae1521579e758845a418054f2ef2fdcc627a3989f32"
+  },
+  {
+    "path": "records/experiments/tcig_multidataset_topology_20260602/multidataset_topology_table.tex",
+    "bytes": 1582,
+    "sha256": "66f92b1d2a8d81cc5f5780d9ba4a990e01f5f64567e023e4b14c10e13c1462fd"
+  },
+  {
+    "path": "records/experiments/tcig_multidataset_topology_20260602/report_zh.md",
+    "bytes": 4420,
+    "sha256": "5dc02d266a3190a4f99b2bf132d5be1e7d42e64cc90af039e7dd1938c2d4c279"
+  }
+]

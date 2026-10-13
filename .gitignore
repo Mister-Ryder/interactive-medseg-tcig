@@ -1,0 +1,36 @@
+# Local secrets and machine-specific files
+*.private.md
+records/secrets/
+agent-context/private/
+agent-context/
+records/experiments/**/multidataset_cases.csv
+
+# Large or transient project data
+transfer/
+artifacts/checkpoints-index/
+data/samples/
+data/*_processed/
+data/manifests/*.jsonl
+*.pth
+*.pt
+*.ckpt
+*.npy
+*.npz
+*.nii
+*.nii.gz
+*.tar
+*.tar.gz
+*.zip
+*.pdf
+
+# Python/runtime noise
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Experiment outputs are usually synced selectively
+records/logs/
+outputs/
+tf-logs/

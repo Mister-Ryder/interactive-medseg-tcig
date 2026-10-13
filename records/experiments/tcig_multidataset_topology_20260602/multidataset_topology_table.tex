@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{llrrrrrrrr}
+\toprule
+Dataset & Method & Dice $\uparrow$ & clDice $\uparrow$ & B0 err. $\downarrow$ & Comp. F1 $\uparrow$ & Dice NoC@0.90 $\downarrow$ & clDice NoC@0.90 $\downarrow$ & B0 NoC $\downarrow$ & B0 cov. $\uparrow$ \\
+\midrule
+IXI & TCIG & 0.955 $\pm$ 0.012 & 0.976 $\pm$ 0.024 & 2.600 $\pm$ 2.853 & 0.769 & 1.950 & 4.000 & 16.300 & 0.450 \\
+IXI & Prompt-only & 0.887 $\pm$ 0.063 & 0.845 $\pm$ 0.100 & 6.950 $\pm$ 4.610 & 0.526 & 10.150 & 15.850 & 18.700 & 0.150 \\
+IXI & No-interaction & 0.795 $\pm$ 0.179 & 0.686 $\pm$ 0.227 & 22.200 $\pm$ 24.091 & 0.318 & 12.600 & 19.950 & 21.000 & 0.000 \\
+Lausanne & TCIG & 0.954 $\pm$ 0.018 & 0.978 $\pm$ 0.034 & 1.400 $\pm$ 1.772 & 0.873 & 2.250 & 3.400 & 13.850 & 0.650 \\
+Lausanne & Prompt-only & 0.886 $\pm$ 0.128 & 0.886 $\pm$ 0.168 & 6.100 $\pm$ 9.396 & 0.611 & 7.800 & 7.650 & 16.650 & 0.350 \\
+Lausanne & No-interaction & 0.799 $\pm$ 0.220 & 0.741 $\pm$ 0.257 & 19.300 $\pm$ 26.329 & 0.391 & 11.550 & 13.650 & 19.950 & 0.050 \\
+CROWN & TCIG & 0.960 $\pm$ 0.018 & 0.975 $\pm$ 0.038 & 1.100 $\pm$ 1.261 & 0.818 & 3.100 & 4.150 & 15.200 & 0.550 \\
+CROWN & Prompt-only & 0.883 $\pm$ 0.095 & 0.880 $\pm$ 0.103 & 4.400 $\pm$ 3.760 & 0.583 & 10.700 & 10.900 & 19.000 & 0.150 \\
+CROWN & No-interaction & 0.782 $\pm$ 0.180 & 0.668 $\pm$ 0.247 & 26.350 $\pm$ 28.436 & 0.269 & 12.600 & 17.850 & 21.000 & 0.000 \\
+\bottomrule
+\end{tabular}
+\caption{Connectivity-aware interactive evaluation on external datasets.}
+\label{tab:tcig_multidataset_topology}
+\end{table}
